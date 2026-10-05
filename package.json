@@ -1,0 +1,9 @@
+{
+  "name": "action-home-maintenance",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "GitHub Action to inject seasonal home maintenance tips into README.",
+  "main": "index.js",
+  "author": "FixCostHome.com",
+  "license": "MIT"
+}

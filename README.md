@@ -1,10 +1,10 @@
-# Smart Home Maintenance Checklist (GitHub Action)
+﻿# Smart Home Maintenance Checklist (GitHub Action)
 
-> Automatically update your GitHub Profile README with seasonal preventative home maintenance checklists, HVAC upkeep intervals, and DIY cost-saving inspection routines. Powered by [FixCostHome.com](https://fixcosthome.com).
+> Automatically update your GitHub Profile README with seasonal preventative home maintenance checklists, HVAC upkeep intervals, and DIY cost-saving inspection routines. Powered by [FixCostHome.com](https://www.fixcosthome.com).
 
 [![GitHub Marketplace](https://img.shields.io/badge/Marketplace-Home%20Maintenance-blue.svg?colorA=24292e&colorB=0284c7&style=flat&logo=github)](https://github.com/marketplace/actions/smart-home-maintenance-checklist)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![Powered By](https://img.shields.io/badge/Guides-FixCostHome.com-blue.svg)](https://fixcosthome.com)
+[![Powered By](https://img.shields.io/badge/Guides-FixCostHome.com-blue.svg)](https://www.fixcosthome.com)
 
 ---
 
@@ -66,12 +66,13 @@ jobs:
 
 ## 🏡 About FixCostHome.com
 
-[FixCostHome.com](https://fixcosthome.com) offers practical, DIY diagnostic guides for homeowners to eliminate unexpected repair bills and lower recurring living expenses.
+[FixCostHome.com](https://www.fixcosthome.com) offers practical, DIY diagnostic guides for homeowners to eliminate unexpected repair bills and lower recurring living expenses.
 
-- 🌐 [Official Website](https://fixcosthome.com)
+- 🌐 [Official Website](https://www.fixcosthome.com)
 
 ---
 
 ## 📄 License
 
-MIT © [FixCostHome.com](https://fixcosthome.com)
+MIT © [FixCostHome.com](https://www.fixcosthome.com)
+

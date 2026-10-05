@@ -1,4 +1,4 @@
-import fs from 'fs';
+﻿import fs from 'fs';
 import path from 'path';
 
 const TASKS = [
@@ -8,7 +8,7 @@ const TASKS = [
     freq: "Every 3 Months",
     savings: "$60 - $180 / year on electric bills and prevents motor burnout",
     tip: "Use MERV 8 to MERV 11 for optimal balance between air filtration and airflow.",
-    url: "https://fixcosthome.com"
+    url: "https://www.fixcosthome.com"
   },
   {
     category: "Plumbing Protection",
@@ -16,7 +16,7 @@ const TASKS = [
     freq: "Every 12 Months",
     savings: "$1,200+ by extending water heater tank lifespan",
     tip: "Inspect the sacrificial anode rod while draining; replace if wire core is exposed.",
-    url: "https://fixcosthome.com"
+    url: "https://www.fixcosthome.com"
   },
   {
     category: "Exterior & Roof",
@@ -24,7 +24,7 @@ const TASKS = [
     freq: "Every 6 Months (Late Autumn & Spring)",
     savings: "$3,000 - $10,000 preventing foundation water damage",
     tip: "Ensure all downspout extensions discharge water at least 6 feet away from foundation walls.",
-    url: "https://fixcosthome.com"
+    url: "https://www.fixcosthome.com"
   },
   {
     category: "Kitchen Appliances",
@@ -32,7 +32,7 @@ const TASKS = [
     freq: "Every 6 Months",
     savings: "$50 / year in energy and extends compressor life",
     tip: "Use a coil cleaning brush and vacuum attachment underneath or behind the unit.",
-    url: "https://fixcosthome.com"
+    url: "https://www.fixcosthome.com"
   }
 ];
 
@@ -51,7 +51,7 @@ async function run() {
 
 * 💰 **Cost Savings Potential:** ${pick.savings}
 * 💡 **Pro-Tip:** ${pick.tip}
-* 📖 **Detailed DIY Checklist:** [Read full guide on FixCostHome.com](${pick.url}?utm_source=github_action&utm_medium=readme&utm_campaign=home_maintenance) · *Powered by [FixCostHome.com](https://fixcosthome.com)*
+* 📖 **Detailed DIY Checklist:** [Read full guide on FixCostHome.com](${pick.url}?utm_source=github_action&utm_medium=readme&utm_campaign=home_maintenance) · *Powered by [FixCostHome.com](https://www.fixcosthome.com)*
 `;
 
     const fullPath = path.resolve(process.cwd(), readmePath);
@@ -78,3 +78,4 @@ async function run() {
 }
 
 run();
+
